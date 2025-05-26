@@ -1,0 +1,5 @@
+npm install bootstrap
+<!-- Local CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Local JS -->
+<script src="js/bootstrap.bundle.min.js"></script>

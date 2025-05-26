@@ -1,0 +1,14 @@
+<!-- Icon buttons -->
+<div class="container my-4">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-outline-primary">
+      <i class="bi bi-heart"></i> Like
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      <i class="bi bi-share"></i> Share
+    </button>
+    <button type="button" class="btn btn-outline-success">
+      <i class="bi bi-download"></i> Download
+    </button>
+  </div>
+</div>

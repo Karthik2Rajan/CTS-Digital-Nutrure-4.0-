@@ -1,0 +1,18 @@
+<!-- Positioned badge overlay -->
+<div class="container my-5">
+  <div class="position-relative d-inline-block">
+    <img src="https://via.placeholder.com/200" class="img-fluid" alt="Product">
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </div>
+  
+  <!-- Centered overlay -->
+  <div class="position-relative bg-light" style="height: 300px;">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+      <h3>Centered Content</h3>
+      <p>position-absolute top-50 start-50 translate-middle</p>
+    </div>
+  </div>
+</div>

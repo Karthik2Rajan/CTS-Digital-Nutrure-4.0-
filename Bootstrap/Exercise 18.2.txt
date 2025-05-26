@@ -1,0 +1,50 @@
+<div class="container my-5">
+  <div class="accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+          <i class="bi bi-question-circle me-2"></i>
+          What is Bootstrap 5?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Bootstrap 5 is the latest version of the popular CSS framework that helps you build 
+          responsive, mobile-first websites quickly and efficiently. It includes a comprehensive 
+          set of CSS utilities, components, and JavaScript plugins.
+        </div>
+      </div>
+    </div>
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+          <i class="bi bi-palette me-2"></i>
+          How do I customize Bootstrap?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          You can customize Bootstrap by modifying Sass variables, using CSS custom properties, 
+          or by overriding default styles with your own CSS. The recommended approach is using 
+          Sass for deep customization.
+        </div>
+      </div>
+    </div>
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+          <i class="bi bi-phone me-2"></i>
+          Is Bootstrap mobile-friendly?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes! Bootstrap follows a mobile-first approach, meaning it's designed to work perfectly 
+          on mobile devices first, then scales up to larger screens using responsive breakpoints.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

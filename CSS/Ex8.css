@@ -1,0 +1,21 @@
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #26a69a;
+  outline-offset: 2px;
+}
+
+.invisible-element {
+  visibility: hidden;
+}
+
+.hidden-element {
+  display: none;
+}

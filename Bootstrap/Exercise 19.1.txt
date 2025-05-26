@@ -1,0 +1,26 @@
+# Initialize npm project
+npm init -y
+
+# Install Bootstrap and Sass
+npm install bootstrap@latest
+npm install sass --save-dev
+
+# Install build tools
+npm install npm-run-all --save-dev
+
+# Package.json scripts
+{
+  "scripts": {
+    "css": "sass --watch scss:css",
+    "css-compile": "sass scss/main.scss css/main.css",
+    "css-prefix": "postcss css/main.css --use autoprefixer -o css/main.css",
+    "css-minify": "cleancss -o css/main.min.css css/main.css",
+    "build": "npm-run-all css-compile css-prefix css-minify"
+  }
+}
+
+# Create SCSS structure
+scss/
+├── main.scss
+├── _variables.scss
+└── _custom.scss

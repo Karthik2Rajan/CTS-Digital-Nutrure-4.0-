@@ -1,0 +1,62 @@
+import React from 'react';
+import Navbar from '../components/Navbar';
+import TabNavigation from '../components/TabNavigation';
+
+const Index = () => {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Navbar */}
+      <Navbar />
+      
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            Navigation Components Demo
+          </h1>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Explore responsive navbar with search functionality and various tabbed navigation styles including nav-tabs and nav-pills.
+          </p>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <span className="text-blue-600 text-xl">📱</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Responsive Design</h3>
+            <p className="text-gray-600">Fully responsive navbar that adapts to mobile devices with a collapsible menu.</p>
+          </div>
+          
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+              <span className="text-green-600 text-xl">🔍</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Search Functionality</h3>
+            <p className="text-gray-600">Integrated search form with proper styling and focus states.</p>
+          </div>
+          
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+              <span className="text-purple-600 text-xl">🎨</span>
+            </div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Multiple Tab Styles</h3>
+            <p className="text-gray-600">Various tabbed navigation styles including tabs and pills with smooth transitions.</p>
+          </div>
+        </div>
+
+        {/* Tab Navigation Components */}
+        <TabNavigation />
+        
+        {/* Footer */}
+        <div className="mt-16 text-center">
+          <p className="text-gray-500">
+            Built with React, TypeScript, and Tailwind CSS
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};

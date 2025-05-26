@@ -1,0 +1,34 @@
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card text-center shadow">
+        <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-4" 
+             style="width: 150px; height: 150px; object-fit: cover;" alt="Profile">
+        
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text text-muted">Senior Developer</p>
+          <p class="card-text">
+            Passionate about creating amazing web experiences with modern technologies. 
+            Loves clean code and innovative solutions.
+          </p>
+          
+          <div class="d-flex justify-content-center gap-2 mb-3">
+            <span class="badge bg-primary">JavaScript</span>
+            <span class="badge bg-secondary">React</span>
+            <span class="badge bg-success">Node.js</span>
+          </div>
+          
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <a href="#" class="btn btn-primary">Follow</a>
+            <a href="#" class="btn btn-outline-secondary">Message</a>
+          </div>
+        </div>
+        
+        <div class="card-footer text-muted">
+          Member since 2020
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

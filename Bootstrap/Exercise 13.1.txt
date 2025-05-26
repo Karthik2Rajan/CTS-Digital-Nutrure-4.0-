@@ -1,0 +1,25 @@
+<div class="container my-5">
+  <!-- Background colors -->
+  <div class="row mb-4">
+    <div class="col-md-3 mb-2">
+      <div class="bg-primary text-white p-3 text-center">bg-primary</div>
+    </div>
+    <div class="col-md-3 mb-2">
+      <div class="bg-secondary text-white p-3 text-center">bg-secondary</div>
+    </div>
+    <div class="col-md-3 mb-2">
+      <div class="bg-success text-white p-3 text-center">bg-success</div>
+    </div>
+    <div class="col-md-3 mb-2">
+      <div class="bg-danger text-white p-3 text-center">bg-danger</div>
+    </div>
+  </div>
+  
+  <!-- Text colors -->
+  <div class="mb-4">
+    <p class="text-primary">Primary text color</p>
+    <p class="text-success">Success text color</p>
+    <p class="text-danger">Danger text color</p>
+    <p class="text-warning">Warning text color</p>
+    <p class="text-muted">Muted text color</p>
+  </div>

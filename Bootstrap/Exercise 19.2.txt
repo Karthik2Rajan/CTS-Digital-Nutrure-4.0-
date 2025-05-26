@@ -1,0 +1,63 @@
+$primary: #6f42c1;
+$secondary: #fd7e14;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+
+// Custom theme colors
+$custom-colors: (
+  "purple": #6f42c1,
+  "orange": #fd7e14,
+  "teal": #20c997
+);
+
+// Merge with existing colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Typography
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+// Border radius
+$border-radius: 0.75rem;
+$border-radius-sm: 0.5rem;
+$border-radius-lg: 1rem;
+
+// Shadows
+$box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+$box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+$box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+// main.scss
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+
+// _custom.scss
+// Custom component styles
+.btn-custom {
+  background: linear-gradient(45deg, $primary, $secondary);
+  border: none;
+  color: white;
+  
+  &:hover {
+    background: linear-gradient(45deg, darken($primary, 10%), darken($secondary, 10%));
+    color: white;
+  }
+}
+
+.card-custom {
+  border: none;
+  box-shadow: $box-shadow-lg;
+  border-radius: $border-radius-lg;
+  
+  .card-header {
+    background: linear-gradient(90deg, $primary, $secondary);
+    color: white;
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
+  }
+}

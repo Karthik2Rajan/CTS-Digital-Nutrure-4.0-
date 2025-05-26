@@ -1,0 +1,27 @@
+<div class="container my-5">
+  <h3>Solid Buttons</h3>
+  <div class="mb-4">
+    <button type="button" class="btn btn-primary me-2">Primary</button>
+    <button type="button" class="btn btn-secondary me-2">Secondary</button>
+    <button type="button" class="btn btn-success me-2">Success</button>
+    <button type="button" class="btn btn-danger me-2">Danger</button>
+    <button type="button" class="btn btn-warning me-2">Warning</button>
+    <button type="button" class="btn btn-info me-2">Info</button>
+    <button type="button" class="btn btn-light me-2">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+  </div>
+  
+  <h3>Outline Buttons</h3>
+  <div class="mb-4">
+    <button type="button" class="btn btn-outline-primary me-2">Primary</button>
+    <button type="button" class="btn btn-outline-secondary me-2">Secondary</button>
+    <button type="button" class="btn btn-outline-success me-2">Success</button>
+    <button type="button" class="btn btn-outline-danger me-2">Danger</button>
+  </div>
+  
+  <h3>Button Sizes</h3>
+  <div class="mb-4">
+    <button type="button" class="btn btn-primary btn-lg me-2">Large</button>
+    <button type="button" class="btn btn-primary me-2">Default</button>
+    <button type="button" class="btn btn-primary btn-sm">Small</button>
+  </div>

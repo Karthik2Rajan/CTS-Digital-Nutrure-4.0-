@@ -1,0 +1,20 @@
+<div class="container my-5">
+  <h1 class="display-1">Display 1</h1>
+  <h2 class="display-4 text-primary">Display 4 Primary</h2>
+  
+  <p class="lead">This is a lead paragraph that stands out.</p>
+  <p class="text-muted">This text is muted.</p>
+  
+  <p class="fw-bold">Bold text</p>
+  <p class="fw-light">Light weight text</p>
+  <p class="fst-italic">Italic text</p>
+  
+  <p class="text-uppercase">Uppercase text</p>
+  <p class="text-lowercase">LOWERCASE TEXT</p>
+  <p class="text-capitalize">capitalize each word</p>
+  
+  <blockquote class="blockquote">
+    <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
+    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+  </blockquote>
+</div>

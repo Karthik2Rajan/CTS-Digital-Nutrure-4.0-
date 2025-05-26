@@ -1,0 +1,6 @@
+<!-- Responsive flexbox -->
+  <div class="d-block d-md-flex justify-content-md-center bg-light p-3">
+    <div class="bg-info text-white p-2 me-md-2 mb-2 mb-md-0">Block on mobile, flex on tablet+</div>
+    <div class="bg-warning text-white p-2">Second item</div>
+  </div>
+</div>

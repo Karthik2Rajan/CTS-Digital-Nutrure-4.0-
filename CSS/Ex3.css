@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Verdana', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+
+#mainHeader {
+  background-color: #3498db;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.eventCard {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+h3, p {
+  font-family: 'Arial', sans-serif;
+  color: #34495e;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}

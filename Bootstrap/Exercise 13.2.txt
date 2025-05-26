@@ -1,0 +1,8 @@
+<!-- Gradient backgrounds -->
+  <div class="bg-gradient bg-primary text-white p-4 mb-3">
+    Primary gradient background
+  </div>
+  <div class="bg-gradient bg-dark text-white p-4">
+    Dark gradient background
+  </div>
+</div>

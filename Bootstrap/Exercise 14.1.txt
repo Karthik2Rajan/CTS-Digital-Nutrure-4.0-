@@ -1,0 +1,34 @@
+<!-- Gradient backgrounds -->
+  <div class="bg-gradient bg-primary text-white p-4 mb-3">
+    Primary gradient background
+  </div>
+  <div class="bg-gradient bg-dark text-white p-4">
+    Dark gradient background
+  </div>
+</div>
+Exercise 14.1: Display and Visibility
+<div class="container my-5">
+  <!-- Hide/show based on breakpoints -->
+  <div class="alert alert-info d-block d-md-none">
+    📱 This message only shows on mobile devices
+  </div>
+  
+  <div class="alert alert-success d-none d-md-block d-lg-none">
+    📟 This message only shows on tablets
+  </div>
+  
+  <div class="alert alert-warning d-none d-lg-block">
+    💻 This message only shows on desktop and larger
+  </div>
+  
+  <!-- Display utilities -->
+  <div class="mb-3">
+    <div class="d-inline-block bg-primary text-white p-2 me-2">d-inline-block</div>
+    <div class="d-inline-block bg-secondary text-white p-2">d-inline-block</div>
+  </div>
+  
+  <div class="d-flex justify-content-between bg-light p-3 mb-3">
+    <div class="bg-primary text-white p-2">Flex item 1</div>
+    <div class="bg-secondary text-white p-2">Flex item 2</div>
+    <div class="bg-success text-white p-2">Flex item 3</div>
+  </div>

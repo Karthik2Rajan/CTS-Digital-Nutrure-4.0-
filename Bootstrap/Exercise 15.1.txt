@@ -1,0 +1,22 @@
+<div class="container my-5">
+  <div class="row">
+    <!-- Border utilities -->
+    <div class="col-md-4 mb-4">
+      <img src="https://via.placeholder.com/150" class="border border-primary border-3 rounded-circle" alt="Bordered image">
+      <p class="mt-2">border border-primary border-3 rounded-circle</p>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+      <div class="border border-danger border-2 rounded p-3">
+        <h5>Bordered Box</h5>
+        <p class="mb-0">border border-danger border-2 rounded</p>
+      </div>
+    </div>
+    
+    <div class="col-md-4 mb-4">
+      <div class="border-top border-bottom border-success border-3 p-3">
+        <h5>Top & Bottom Border</h5>
+        <p class="mb-0">border-top border-bottom border-success border-3</p>
+      </div>
+    </div>
+  </div>

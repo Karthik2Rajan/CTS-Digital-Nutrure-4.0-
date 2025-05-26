@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Roboto:wght@300;400;700&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1a237e;
+}
+
+
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: left;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+
+.description {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #424242;
+}

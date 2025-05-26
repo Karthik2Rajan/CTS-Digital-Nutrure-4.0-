@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="bg-primary text-white p-4 text-center">
+        Horizontally Centered
+      </div>
+    </div>
+  </div>
+  
+  <div class="row justify-content-center align-items-center min-vh-100">
+    <div class="col-md-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Perfectly Centered</h5>
+          <p class="card-text">Both horizontally and vertically</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

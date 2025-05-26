@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 order-2 order-md-1">
+      <h2>Main Content</h2>
+      <p>This content appears first on desktop but second on mobile.</p>
+    </div>
+    
+    <div class="col-md-4 order-1 order-md-2">
+      <div class="bg-light p-3">
+        <h4>Sidebar</h4>
+        <p>This sidebar appears second on desktop but first on mobile.</p>
+      </div>
+    </div>
+  </div>
+</div>

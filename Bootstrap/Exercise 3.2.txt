@@ -1,0 +1,14 @@
+<!-- Fixed width container -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">Main Content</div>
+    <div class="col-md-4">Sidebar</div>
+  </div>
+</div>
+
+<!-- Fluid container -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">Full width content</div>
+  </div>
+</div>

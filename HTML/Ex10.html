@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Debugging Practice</title>
+  <style>
+
+    #container {
+      width: 200px; /* too small */
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+   
+    #message {
+      font-size: 18px;
+      margin-bottom: 0;
+      line-height: 1;
+    }
+
+    button {
+      margin-top: 0;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <p id="message">Click the button to see a message:</p>
+    <button id="showMsgBtn">Show Message</button>
+  </div>
+
+  <script>
+    const btn = document.getElementById('showMsgBtn');
+    const msg = document.getElementById('message');
+
+    btn.addEventListener('click', () => {
+      console.log("Button clicked");
+
+      
+      try {
+        msgContent = "Hello, this is your message!";
+        console.log("msgContent set:", msgContent);
+        msg.textContent = msgContent;
+      } catch (err) {
+        console.error("Error occurred:", err);
+      }
+
+     
+      console.log("Message displayed:", msg.textContent);
+    });
+  </script>
+
+</body>
+</html>
